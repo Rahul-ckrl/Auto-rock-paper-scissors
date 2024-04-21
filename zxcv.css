@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.js-grid,
+.js-input-grid{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+} 
+.js-input-grid{
+    margin-bottom: 10px;
+}  
+.play,
+.due{
+    font-size: 15px;
+    padding: 6px;
+}
+.ad-but{
+    color: white;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+.del-but{
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    height: 30px;
+}
